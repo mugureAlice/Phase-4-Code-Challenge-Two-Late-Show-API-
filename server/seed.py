@@ -1,8 +1,8 @@
-from server.app import app, db
-from server.models.user import User
-from server.models.guest import Guest
-from server.models.episode import Episode
-from server.models.appearance import Appearance
+from app import app, db
+from models.user import User
+from models.guest import Guest
+from models.episode import Episode
+from models.appearance import Appearance
 from datetime import date
 
 def seed():
